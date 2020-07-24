@@ -1070,8 +1070,8 @@ progress {
 }
 
 .portfolio-block.block-intro .avatar {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
@@ -1327,6 +1327,10 @@ progress {
     padding-bottom: 80px;
     font-family: "Source Sans Pro", sans-serif;
 }
+.text-center{
+    margin-left:auto;
+    margin-right: auto;
+}
 
 @media (min-width: 768px) {
     .header-blue {
@@ -1342,6 +1346,11 @@ progress {
     border-radius: 0;
     box-shadow: none;
     border: none;
+
+}
+.welcomePage--section{
+    min-height: 500px !important;
+    padding-top: 150px;
 }
 
 @media (min-width: 768px) {
@@ -1401,6 +1410,11 @@ progress {
     .header-blue .navbar-nav .nav-link {
         padding-left: 1.2rem;
         padding-right: 1.2rem;
+    }
+}
+@media (min-width: 992px) {
+    .welcomePage--section {
+        min-height: 300px;
     }
 }
 
@@ -1478,7 +1492,7 @@ progress {
     }
 }
 
-.header-blue .hero h1 {
+.header-blue .hero h1{
     color: #fff;
     font-size: 40px;
     margin-top: 0;
